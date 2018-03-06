@@ -1,3 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hello Gangneung</string>
+
+    <string name="app_name">Go Gangneung</string>
+    <string name="app_name_subtitle">2018 Winter Olympics City of Ice Sports</string>
+
+    <string name="getting_started_page_text">Enjoy delicious food in City of Gangneung during
+        Pyeongchang 2018 Winter Olympics</string>
+    <string name="getting_starting">Get Started</string>
+    <string name="title_activity_rest_base">RestBaseActivity</string>
+
+    <string name="title_home">Restaurants</string>
+    <string name="title_posts">Posts</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="tab_text_1">Best 10</string>
+    <string name="tab_text_2">Western</string>
+    <string name="tab_text_3">Korean</string>
+    <string name="tab_text_4">Chinese</string>
+    <string name="tab_text_5">Japanese</string>
+    <string name="tab_text_6">Sushi Restaurant</string>
+    <string name="tab_text_7">Buffet</string>
+
+    <string name="dummy_rest_name">Annabel Lee</string>
+    <string name="dummy_rest_price">8000원~16,000원</string>
+    <string name="dummy_cat">Western (Korean Name : )</string>
+    <string name="dummy_rest_menu">Annabel Lee Set Menu, Set Menu with Chicken..</string>
+
+    <string name="fetching_data">Fetching data..</string>
+    <string name="network_not_available">You are not connected to Internet!</string>
+    <string name="title_activity_rest_detail">RestDetailActivity</string>
+
+    <string name="google_map_api_key">AIzaSyDi3PzjW-zKo_rsQHZIKmf81ssi_J_ozyo</string>
+
+
 </resources>

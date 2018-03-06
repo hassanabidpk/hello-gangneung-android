@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/text_margin_list_item"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/restImage"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginStart="@dimen/text_margin"
+        android:src="@drawable/cell_bg"/>
+
+    <TextView
+        android:id="@+id/restPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginTop="@dimen/icon_margin"
+        android:textAppearance="@style/GoTheme.Subtitle"
+        android:ellipsize="end"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:text="@string/dummy_rest_price"/>
+
+        <TextView
+            android:id="@+id/restName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginEnd="@dimen/text_margin"
+            android:layout_marginTop="@dimen/icon_margin"
+            android:text="@string/dummy_rest_name"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:textAppearance="@style/GoTheme.Title"/>
+
+
+        <TextView
+            android:id="@+id/restMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="@dimen/text_margin"
+            android:textAppearance="@style/GoTheme.Secondary.Title"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"
+            android:layout_marginEnd="@dimen/text_margin"
+            android:text="@string/dummy_rest_menu"/>
+
+
+
+</LinearLayout>

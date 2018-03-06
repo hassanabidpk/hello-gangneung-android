@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.irunseoul.android.app.fragments.PastEventFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="56dp"
+    android:paddingBottom="@dimen/recycleview_marginbottom"
+    app:layoutManager="LinearLayoutManager"
+    tools:context="com.hellogangneung.app.android.fragments.RestCatFragment"
+    tools:listitem="@layout/rest_list_content" />

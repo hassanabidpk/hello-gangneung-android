@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_start">32dp</dimen>
+    <dimen name="app_bar_top">56dp</dimen>
+    <dimen name="recycleview_marginbottom">52dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="svg_icon_size">36dp</dimen>
+    <dimen name="icon_margin">8dp</dimen>
+    <dimen name="text_margin_list_item">8dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>
